@@ -1,0 +1,32 @@
+.header{
+    margin: 0;
+    color:aliceblue;
+    text-align: center;
+    font-size: 4em;
+    animation: dropdown 1s ease-in-out;
+}
+.header h1{
+    margin: 0;
+    position: relative;
+
+}
+@keyframes dropdown{
+  0%{
+    opacity: 0;
+    transform: translateY(-200px);
+}
+
+70%{
+    
+    transform: translateY(50px);
+    opacity: 0.8;
+  }
+
+  100%{
+    transform: translateY(0px);
+      opacity: 1;
+
+  }
+
+
+} 

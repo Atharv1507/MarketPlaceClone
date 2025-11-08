@@ -1,0 +1,18 @@
+.Navbar{
+    position: relative;
+    display:flex;
+    list-style: none;
+    width: 70%;
+    margin: auto;
+    z-index: 1000;
+    margin-top: 30px;
+    font-size: 2em;
+    height: 10vh;    
+    font-family: "Asap", sans-serif;
+    font-weight: 600;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.079);
+    backdrop-filter:blur(10px) ;
+    justify-content: space-evenly;
+}
