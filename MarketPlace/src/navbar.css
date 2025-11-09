@@ -2,10 +2,9 @@
     position: relative;
     display:flex;
     list-style: none;
-    width: 70%;
-    margin: auto;
+    width: 80%;
+    margin: 30px auto;
     z-index: 1000;
-    margin-top: 30px;
     font-size: 2em;
     height: 10vh;    
     font-family: "Asap", sans-serif;
@@ -15,4 +14,9 @@
     background-color: rgba(255, 255, 255, 0.079);
     backdrop-filter:blur(10px) ;
     justify-content: space-evenly;
+}
+@media (max-width:500px){
+    .Navbar{
+        font-size:1.3em;
+    }
 }

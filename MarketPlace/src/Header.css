@@ -28,5 +28,10 @@
 
   }
 
-
 } 
+
+@media (max-width:500px){
+    .header{
+      font-size: 1.6em;
+    }
+}
